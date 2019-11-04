@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<body>
+			<header>
+				<h1></h1>
+			</header>
+			<p>
+			</p>
+		</body>
+	</head>
+</html>
+
+GENERAL ORDER OF TAGS
+	doctype
+	html
+	head
+	meta 
+	title
+	link
+	body
+	header
+	h1
+	p
+	footer
