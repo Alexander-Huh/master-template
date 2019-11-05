@@ -1,0 +1,153 @@
+
+
+/* formatting/styling */
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font:bold 20px Tahoma;
+    padding: 7px;
+}
+h2{
+    font: bold 14px Tahoma
+}
+header, section, footer, aside, nav, article, hgroup{
+    display: block;
+}
+body{
+    text-align: center;
+}
+p{
+    text-indent: 40px;
+    margin-bottom: 10px;
+}
+#big_wrapper{
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+#header_color{
+color:black;
+}
+#top_header{
+    background: rgba(255, 228, 196,0.6);
+    padding: 20px;
+}
+#top_menu{
+    background: lightblue;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+#top_menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px Tahoma;
+    margin: 0px 50px;
+}
+#main_section{
+    float: left;
+    width: 65%; /*sets the width of the maine section to be 65% of the page*/ 
+    margin: 25px; /* 700px, 300px left */
+}
+#news_column{
+    float: left;
+    width: 23%;
+    margin: 25px 0px;
+    padding: 20px;
+    background-color: rgba(224, 224, 235,0.6);
+    border-radius: 10px;
+}
+#the_footer{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid green;
+}
+#tom_the_trout{
+    float: left;
+    width: 30%; 
+    height: auto;
+}
+#center_photo{ /*styling for the div that contains pin_oak  image and header*/
+    text-align: center;
+    height: auto;
+    background-color: rgba(255, 228, 196,0.6);
+    /*border: 1px solid red;*/
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+#photo_header{
+    text-align: left;
+    padding: 20px;
+    text-indent: 70px;
+}
+#image_scaling{
+    text-align: center;
+    width: 75%;
+    height: auto;
+}
+#home_span{
+    /*background-color: violet;*/
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+}
+article{
+    background: rgba(255, 228, 196,0.6);
+    /*border: 1px solid red;*/
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+article footer{
+    text-align: right;
+}
+/*clears floats after the columns*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*-------------------------------*/
+/*columns of equal width---*/
+.column{
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+/*-----------------------------------*/
+/*column of unequal width---*/
+.column{
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+.left{
+    width: 15%;
+}
+.middle{
+    width: 54.3%;
+}
+.right{
+    width: 25%;
+    float: right;
+    margin: 10px;
+}
+/*-----------------------------------------*/
+.ads{
+    width: 75%;
+    height: auto;
+}
+.center_img{
+    text-align: center;
+}
+.center{
+    margin: 0 auto;
+    position:relative;
+}
