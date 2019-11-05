@@ -151,3 +151,6 @@ article footer{
     margin: 0 auto;
     position:relative;
 }
+#login_button{
+    float: right;
+}
