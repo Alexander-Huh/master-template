@@ -121,11 +121,16 @@ article footer{
     display: table;
     clear: both;
 }
-.left, .right{
+/*columns of unequal width*/
+.left{
+    width: 15%;
+}
+/*column of unequal width*/
+.right{
     width: 25%;
 }
 .middle{
-    width: 44%;
+    width: 50%;
 }
 .ads{
     width: 75%;
@@ -134,4 +139,3 @@ article footer{
 .center_img{
     text-align: center;
 }
-
