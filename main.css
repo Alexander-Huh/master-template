@@ -23,7 +23,6 @@ p{
     margin-bottom: 10px;
 }
 #big_wrapper{
-    /*border: 1px solid black;*/
     width: 80%;
     margin: 20px auto;
     text-align: left;
@@ -33,7 +32,6 @@ color:black;
 }
 #top_header{
     background: rgba(255, 228, 196,0.6);
-    /*border: 1px solid black;*/
     padding: 20px;
 }
 #top_menu{
@@ -123,11 +121,6 @@ article footer{
     display: table;
     clear: both;
 }
-.any_row:after{
-    content: "";
-    display: table;
-    clear: both;
-}
 .left, .right{
     width: 25%;
 }
@@ -135,7 +128,10 @@ article footer{
     width: 44%;
 }
 .ads{
-    width: 100%;
+    width: 75%;
     height: auto;
+}
+.center_img{
+    text-align: center;
 }
 
