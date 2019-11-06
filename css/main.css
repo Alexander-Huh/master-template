@@ -160,9 +160,9 @@ article footer{
 /* sets the background and width of table */
 #pricing_table{
     float: right;
-    width: 25%;
+    width: 28%;
     padding: 25px;
-    margin-right: 50px;
+    margin-right: 15px;
     background-color: rgba(224, 224, 235,0.6);
     border-radius: 10px;
     padding-right: 20px;
@@ -171,6 +171,7 @@ article footer{
 table, th, td{
     border-collapse: collapse;
     border: 2px solid black;
+    font-size:15px;
 }
 /* formatting for the img of the apartment */
 #apartment_img{
