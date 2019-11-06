@@ -151,6 +151,7 @@ article footer{
     margin: 0 auto;
     position:relative;
 }
-#login_button{
+#login{
     float: right;
+    margin-top: 10px;
 }
