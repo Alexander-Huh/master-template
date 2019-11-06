@@ -49,14 +49,19 @@ color:black;
     margin: 0px 50px;
 }
 #main_section{
+    height: auto;
     float: left;
     width: 65%; /*sets the width of the maine section to be 65% of the page*/ 
-    margin: 25px; /* 700px, 300px left */
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
 }
 #news_column{
     float: left;
     width: 23%;
-    margin: 25px 0px;
+    margin: 10px 0px;
     padding: 20px;
     background-color: rgba(224, 224, 235,0.6);
     border-radius: 10px;
@@ -76,7 +81,6 @@ color:black;
     text-align: center;
     height: auto;
     background-color: rgba(255, 228, 196,0.6);
-    /*border: 1px solid red;*/
     padding: 20px;
     padding-bottom: 50px;
     margin-top: 15px;
