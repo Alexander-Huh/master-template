@@ -144,14 +144,35 @@ article footer{
     width: 75%;
     height: auto;
 }
+/* centers images within their divs for ads*/
 .center_img{
     text-align: center;
-}
-.center{
-    margin: 0 auto;
-    position:relative;
 }
 #login{
     float: right;
     margin-top: 10px;
 }
+/* sets the background and width of table */
+#pricing_table{
+    float: right;
+    width: 25%;
+    padding: 25px;
+    margin-right: 50px;
+    background-color: rgba(224, 224, 235,0.6);
+    border-radius: 10px;
+    padding-right: 20px;
+}
+/* table formatting for the outline */
+table, th, td{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+/* formatting for the img of the apartment */
+#apartment_img{
+    text-align: left;
+    width: 60%;
+    height: auto;
+    margin-left: 20px;
+}
+
+
