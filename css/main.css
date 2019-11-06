@@ -52,7 +52,8 @@ color:black;
     height: auto;
     float: left;
     width: 65%; /*sets the width of the maine section to be 65% of the page*/ 
-    padding-right: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 50px;
     margin-bottom: 15px;
