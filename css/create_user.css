@@ -1,0 +1,31 @@
+.center_all{
+    margin: 15% 25% auto 25%;
+}
+#background_color{
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+#account_table{
+    float: none;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.left_margin{
+    margin-left: 94px;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+select{
+    margin: 5px;
+    border-radius: 5px;
+}
+button{
+    border-radius: 5px;
+    background-color: aliceblue;
+}

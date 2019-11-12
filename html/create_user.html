@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="..\css\create_user.css">
+    <title>Create Account</title>
+</head>
+
+<section id="background_color">
+
+    <body class="center_all">
+
+        <div>
+            <header class="left_margin">
+                <h3>Account Creation:</h3>
+            </header>
+
+            <form class="left_margin" action="">
+                <table id="account_table">
+                    <section>
+                        <!-- first name input field -->
+                        <label for="first_name"></label>
+                        <input id="first_name" placeholder="First Name" required size="25" type="text">
+                        <!-- last name input field -->
+                        <label for="last_name"></label>
+                        <input id="last_name" placeholder="Last Name" required size="25" type="text">
+                    </section>
+                    <!-- row containing username input -->
+                    <section>
+                        <label for="username"></label>
+                        <input id="usernanme" placeholder="Email Address" required size="60" type="text">
+                        <!-- row containing password input -->
+                        <label for="password"></label>
+                        <input id="password" placeholder="Password" required size="60" type="password">
+                    </section>
+                    <!-- birthday selection drop-down menus -->
+                    <label for="birthday">Birthday</label>
+                    <section>
+                        <select name="birthday" id="month" required>
+                            <option value="">Month</option>
+                            <option value="jan">January</option>
+                            <option value="feb">February</option>
+                            <option value="apr">April</option>
+                            <option value="may">May</option>
+                        </select>
+                        <select name="birthday" id="day" required>
+                            <option value="">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">3</option>
+                        </select>
+                        <select name="birthday" id="year" required>
+                            <option value="">Year</option>
+                            <option value="1950">1950's</option>
+                            <option value="1960">1960's</option>
+                            <option value="1970">1970's</option>
+                            <option value="1980">1980's</option>
+                        </select>
+                    </section>
+                    <!-- row containing gender selection drop-down -->
+                    <section>
+                        <label for="gender">Gender</label>
+                        <section>
+                            <select name="gender" id="gender" required>
+                                <option value="">Gender</option>
+                                <option value="female">Female</option>
+                                <option value="male">Male</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </section>
+                    </section>
+                <button>Submit</button>
+            </form>
+        </div>
+    </body>
+</section>
+
+</html>
