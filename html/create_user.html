@@ -15,10 +15,12 @@
 
         <div>
             <header class="left_margin">
-                <h3>Account Creation:</h3>
+                <h3>Account Creation:
+                <a href="home.html" class="button">Already Have an Account</a>
+                </h3>
             </header>
 
-            <form class="left_margin" action="">
+            <form class="left_margin" action="home.html">
                 <table id="account_table">
                     <section>
                         <!-- first name input field -->
@@ -31,10 +33,11 @@
                     <!-- row containing username input -->
                     <section>
                         <label for="username"></label>
-                        <input id="usernanme" placeholder="Email Address" required size="60" type="text">
+                        <input id="usernanme" placeholder="Email Address" required size="60" type="email">
                         <!-- row containing password input -->
                         <label for="password"></label>
-                        <input id="password" placeholder="Password" required size="60" type="password">
+                        <input id="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  required size="60" type="password">
+                            
                     </section>
                     <!-- birthday selection drop-down menus -->
                     <label for="birthday">Birthday</label>

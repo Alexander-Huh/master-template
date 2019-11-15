@@ -33,6 +33,7 @@ color:black;
 #top_header{
     background: rgba(255, 228, 196,0.6);
     padding: 20px;
+    padding-bottom: 55px;
 }
 #top_menu{
     background: lightblue;
@@ -180,5 +181,29 @@ table, th, td{
     height: auto;
     margin-left: 20px;
 }
-
-
+#submit_button{
+    width: 95px;
+    background-color: rgb(221, 221, 221);
+    border: none;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+.button {
+    background-color: rgb(221, 221, 221);
+    border: none;
+    float: right;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    width: 85px;
+}
+#create_account{
+    float: right;
+}

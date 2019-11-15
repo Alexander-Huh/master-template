@@ -16,9 +16,12 @@
         <!--contains the top header-->
         <header id="top_header">
             <form id=login action="https://www.google.com" method="GET">
-                <label for="username"><input id="username" type="email" placeholder="email" required></label>
-                <label for="password"><input id="password" type="password" placeholder="password" required></label>
-                <input type="Submit">
+                <label for="username"><input name="email" id="username" type="email" placeholder="email" required></label>
+                <label for="password"><input name="password" id="password" type="password" placeholder="password" required></label>
+                <button id="submit_button" type="submit">Login</button>
+                <div>
+                    <a href="create_user.html" class="button">Create Account</a>
+                </div>
             </form>
             <h1 id="header_color">Welcome to the about Author Page</h1>
         </header>

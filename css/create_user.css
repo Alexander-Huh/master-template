@@ -13,7 +13,7 @@
     text-align: center;
 }
 .left_margin{
-    margin-left: 94px;
+    margin-left: 23%;
 }
 input{
     padding: 10px;
@@ -28,4 +28,17 @@ select{
 button{
     border-radius: 5px;
     background-color: aliceblue;
+}
+.button {
+    background-color: rgb(221, 221, 221);
+    border: none;
+    float: right;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    width: 85px;
+
 }
